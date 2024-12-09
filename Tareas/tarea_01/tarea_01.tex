@@ -1,0 +1,111 @@
+\documentclass[12pt,letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage[hidelinks]{hyperref}
+\usepackage{latexsym}
+\usepackage{float}
+\usepackage{subfigure}
+\usepackage{array} %tabular
+\usepackage{fancyhdr}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{enumerate} % enumerados
+\usepackage{cite}
+\usepackage{wrapfig}
+\usepackage{afterpage}
+\setcitestyle{square}
+\usepackage[export]{adjustbox}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{afterpage}
+\usepackage{setspace}
+\spanishdecimal{.}
+
+
+\makeatletter
+\long\def\@makecaption#1#2{%
+\vskip\abovecaptionskip
+\sbox\@tempboxa{#1. #2}%
+\ifdim \wd\@tempboxa >\hsize
+#1. #2\par
+\else
+\global \@minipagefalse
+\hb@xt@\hsize{\hfil\box\@tempboxa\hfil}%
+\fi
+\vskip\belowcaptionskip}
+\makeatother
+
+
+\title{Análisis Estadístico con Python 2024 \\ Tarea 01. Tipos de datos}
+\author{Marc, M.}
+
+\begin{document}
+
+\maketitle
+
+\spacing{1.5}
+
+
+
+\begin{enumerate}
+  \item El siguiente conjunto es una muestra o una población? \\ 
+   \guillemotleft las edades de los miembros del gabinete actual de Japón\guillemotright . \\  
+   Sol. \emph{población}
+   
+  \item El siguiente conjunto es una muestra o una población? \\ 
+  \guillemotleft el salario de un grupo aleatoriamente seleccionado de 100 ciudadanos de Londres\guillemotright . \\ 
+   Sol. \emph{muestra} 
+   
+   \item El siguiente conjunto es una muestra o una población? \\ 
+  \guillemotleft los diámetros de los planetas de nuestro sistema solar\guillemotright . \\ 
+   Sol. \emph{población} 
+   
+   \item El siguiente conjunto es una muestra o una población? \\ 
+  \guillemotleft Enviamos un formulario de encuesta en línea a \textbf{todos} los alumnos de \textbf{SciData} para estimar el nivel de satisfacción. La tasa de respuesta fue del 11.4 \%. Al utilizar los datos de la encuesta devueltos, creamos un conjunto de datos de satisfacción del cliente\guillemotright . \\ 
+   Sol. \emph{muestra}
+   
+   \item La variable que representa la temperatura máxima de cada ciudad de México es un tipo de dato \emph{cuantitativo} o \emph{cualitativo}? \\ 
+   Sol. \emph{cuantitativo}
+   
+   \item La variable que representa tu número entero favorito es \emph{cuantitativa} o \emph{cualitativa}? \\ 
+   Sol. \emph{cuantitativa}
+   
+   \item La variable que representa a la ciudad en que vive cada inscrito a este curso es \emph{cuantitativa} o \emph{cualitativa}? \\ 
+   Sol. \emph{cualitativa} 
+   
+   \item Una variable que representa el Producto Interno Bruto de cada país en dólares estadounidenses es \emph{cuantitativa} o \emph{cualitativa}? \\ 
+   Sol. \emph{cuantitativa} 
+   
+   \item El total de sillas en un salón de clases es un dato \emph{discreto} o \emph{continuo}? \\ 
+   Sol. \emph{discreto} 
+   
+   \item El área en $m^{2}$ de un salón de clases es un dato \emph{discreto} o \emph{continuo}? \\ 
+   Sol. \emph{continuo} 
+   
+   \item La variable que representa la motivación de un empleado en una escala del 1 al 5 es \emph{discreta} o \emph{continua}? \\ 
+   Sol. \emph{continua}
+   
+   \item Una variable que representa el nivel de motivación laboral promedio de cada equipo medida para cada miembro del equipo mediante una escala de 5 puntos es \emph{discreta} o \emph{continua}? \\ 
+   Sol. \emph{continua}
+   
+   \item El código postal es una variable \emph{nominal}, \emph{ordinal}, \emph{de intervalo} o \emph{de cociente}? \\ 
+   Sol. \emph{nominal}
+   
+   \item El número en que se encuentra una universidad dentro de un rango de clasificación es una variable \emph{nominal}, \emph{ordinal}, \emph{de intervalo} o \emph{de cociente}? \\ 
+   Sol. \emph{ordinal}
+   
+   \item El número en que se encuentra una universidad dentro de un rango de clasificación es una variable \emph{nominal}, \emph{ordinal}, \emph{de intervalo} o \emph{de cociente}? \\ 
+   Sol. \emph{ordinal}
+   
+   \item La variable \guillemotleft altura de una montaña\guillemotright , es una variable \emph{nominal}, \emph{ordinal}, \emph{de intervalo} o \emph{de cociente}? \\ 
+   Sol. \emph{cociente}
+   
+  %\item[!] A point to exclaim something!
+  %\item[$\blacksquare$] Make the point fair and square.
+  %\item[NOTE] This entry has no bullet
+  %\item[] A blank label?
+\end{enumerate}
+
+\end{document}
