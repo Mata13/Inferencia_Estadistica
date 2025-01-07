@@ -1,7 +1,7 @@
 # Inferencia Estadística
 
 > [!NOTE]  
-> Este repositorio contiene los recursos, tareas y clases desarrollados en el Diplomado de Inferencia Estadística. Está diseñado para servir como material de referencia y aprendizaje.
+> Este repositorio contiene los recursos, tareas y clases desarrollados en el Diplomado de Inferencia Estadística con Python. Está diseñado para servir como material de referencia y aprendizaje.
 
 ## 📁 Estructura del repositorio
 
